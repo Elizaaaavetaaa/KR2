@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style1.css">
+
+  
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">о нас
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="logotip.jpg" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Главная страница</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="bron.html">Бронь</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html">Цены на билеты</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="цены.html">
+                <a href="https://www.youtube.com/"><img style="width: 35px; margin-inline: 1em;" src="youtube.jpg" alt="..."></a>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="цены.html">
+                <a href="https://web.telegram.org/k/"><img style="width: 25px; margin-inline: 1em;" src="telegram.png" alt="..."></a>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="reservation">
+    <div class="container">
+    </div>
+
+    <div class="container">
+         <div class="reserv-form">
+        <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <ol>
+            <li>
+                <p>На чьё имя забронировать: <input name="reserv_name" size=20 type="Text" value="Елизавета"></p>
+            </li>
+            <li>
+                <p>Число гостей: <input name="number" size=20 type="Number" value="5"></p>
+            </li>
+            <li>
+                <p>Дополнительные условия:
+            </li>
+                <input checked name="experience" type="Checkbox" value="10">Вид на море 
+                <input checked name="experience" type="Checkbox" value="30">Вид на море
+                <input checked name="experience" type="Checkbox" value="30">Наличие джакузи 
+            </p>
+            <li>
+                <p>Есть ли дети до 12 лет?
+            </li>
+                <select name="languages">
+                    <OPTION value="No">Нет</OPTION>
+                    <OPTION value="Yes">Да</OPTION>
+                </select>
+            </p>
+            <li>
+                <p> Комментарий к брони:
+            </li>
+                <br>
+                <TEXTAREA cols=80 name="textarea" rows=4>Для заметок</TEXTAREA>
+            </p>
+            </ol>
+            <p>Дата: <input name="user_date" type="date" value='2023-10-01'></p>
+           
+            
+            <input name="function" type="hidden" value="page">
+            <input name="page_id" type="hidden" value="3">
+            <p>
+            
+                <input name="submit" type="Submit" value="Отправить">
+                <input  type="hidden" name="q" id="say" value="Вы купили свой счастливый билет" />
+            </p>
+        </form>
+
+         </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-copyright">
+             <div class="tomainpage">
+               <a class="to-items" href="index.html">Вернуться на главную</a>
+             </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
